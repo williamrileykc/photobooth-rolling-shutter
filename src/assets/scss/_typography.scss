@@ -1,0 +1,40 @@
+// =================================================================================================
+// ---- Typography ----
+// =================================================================================================
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+// Resets
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.button {
+  background-color: transparent;
+  border: 3px solid $white;
+  color: $white;
+  font-size: 38px;
+  font-weight: 400;
+  padding: 0 90px;
+  text-align: center;
+  height: 97px;
+  line-height: 100px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: -3px;
+}

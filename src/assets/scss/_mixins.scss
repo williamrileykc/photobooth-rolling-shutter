@@ -1,0 +1,32 @@
+// =================================================================================================
+// ---- Mixins ----
+// =================================================================================================
+
+
+// ==|== Hidden Element to TweenMax.from ===========================================================
+%animate-init-autoalpha {
+  position: relative;
+  top: 100px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+// ==|== Helpers ===================================================================================
+@mixin centerer() {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+@mixin centererX() {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@mixin centererY() {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
